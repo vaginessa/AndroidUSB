@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MinimalUSB2</string>
+    <string name="search">Search for USBs</string>
+    <string name="display">Display Minimal OpenGL</string>
+    <string name="connected">Device connected:</string>
+    <string name="path">Device path:</string>
+    <string name="sendCT">Send CT</string>
+</resources>
