@@ -149,10 +149,10 @@
 ; *** PRODUCT STRING DESCRIPTOR ***
 
 .section USB.DESC.ST.STRING.PRODUCT, data
-/* LENGTH_FIELD     */ .byte 54
-/* bLength          */ .byte 54
+/* LENGTH_FIELD     */ .byte 44
+/* bLength          */ .byte 44
 /* bDescriptorType  */ .byte STRING
-/* bString          */ .ascii "R\0e\0s\0p\0i\0r\0a\0t\0o\0r\0y\0 \0D\0a\0t\0a\0 \0C\0o\0l\0l\0e\0c\0t\0o\0r\0"
+/* bString          */ .ascii "D\0e\0v\0i\0c\0e\0 \0N\0a\0m\0e\0 \0G\0o\0e\0s\0 \0H\0e\0r\0e\0"
 
 ; *** SERIAL NUMBER STRING DESCRIPTOR ***
 
@@ -160,7 +160,7 @@
 /* LENGTH_FIELD     */ .byte 10
 /* bLength          */ .byte 10
 /* bDescriptorType  */ .byte STRING
-/* bString          */ .ascii "R\0E\0S\0P\0"
+/* bString          */ .ascii "D\0E\0V\0_\0"
 
 
 /*** BINARY DEVICE OBJECT STORE DESCRIPTOR ***/
